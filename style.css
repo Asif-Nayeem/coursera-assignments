@@ -1,0 +1,65 @@
+/*To remove the default margin of the browser */
+.mar{
+	margin: 0px;
+}
+.menu{
+	text-align: center;
+}
+.row{
+	width: 100%;
+	margin-left: 0px;
+	font-size: 120%;
+}
+#box{
+	background-color: gray;
+	border: 2px solid black;
+	height:auto;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+/*for large screen */
+@media(min-width:992px ){
+	.col-lg-4{
+		float: left;
+		margin-left:2%;
+	}
+	.col-lg-4{
+		width: 31%
+
+	}
+}
+
+/*for mediam screen */
+@media(min-width: 768px) and (max-width: 991px){
+	.col-mg-6{
+		float: left;
+		margin-right:2.5%;
+		margin-left: 2.5%;
+	}
+	.col-mg-6{
+		width:45%;
+		
+	}
+	.box3{
+		width: auto;
+	}
+}
+
+/*for small screen */
+@media(max-width: 767px){
+	.col-sg-12{
+		margin-left: 5%;
+		margin-right:5%
+	}
+}
+
+/* for heading of the boxes i.e. "Chicken" , "Beef" , "Sushi" */
+#heading{
+	height: 35px;
+	width: 150px;
+	text-align: center;
+	float: right;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+}
